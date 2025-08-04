@@ -25,5 +25,5 @@ class ProductDeleteView(DeleteView):
     model = Product
     success_url = reverse_lazy('list')
 
-class BookDetailView(DetailView):
+class ProductDetailView(DetailView):
     model = Product
