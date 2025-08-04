@@ -4,7 +4,6 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Product
 from django.urls import reverse_lazy
 from django.views.generic.detail import DetailView
-from .models import Book
 
 class TopView(TemplateView):
     template_name = "top.html"
